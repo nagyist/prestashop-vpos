@@ -196,6 +196,7 @@ class Skeleton extends PaymentModule
 		}
 		else
 			$this->smarty->assign('status', 'failed');
+
 		return $this->display(__FILE__, 'payment_return.tpl');
 	}
 
